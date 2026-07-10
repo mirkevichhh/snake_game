@@ -9,7 +9,7 @@ game_font = pygame.font.Font(None,40)
 text_end = game_font.render("Congratulations",True,"Orange")
 myappid = 'mycompany.myproduct.subproduct.version' 
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
-icon = pygame.image.load("D:/Work/snake.png")
+icon = pygame.image.load("D:/Work/snake-pygame/snake.png")
 pygame.display.set_icon(icon)
 
 screen = pygame.display.set_mode((settings.WINDOW_WIDTH,settings.WINDOW_HEIGHT))
