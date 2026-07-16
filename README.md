@@ -11,11 +11,11 @@ This is a classic "Snake" arcade game implemented in Python using the Pygame lib
 1. Ensure you have Python installed.
 2. Install the required Pygame library by running the following command in your terminal:
 
-``
+```bash
 pip install pygame
-``
-▶️ How to Run
+```
 
+▶️ How to Run
 After installing the dependencies, navigate to the game folder and run the main file:
 
 Bash
@@ -54,4 +54,4 @@ The game automatically keeps track of your best performance.
 
 Data Persistence: Your High Score is saved locally, so your best record will be waiting for you even after you close and restart the game.
 
-Be careful—colliding with a wall or your own tail ends the game!
+Warning: Be careful — colliding with a wall or your own tail ends the game!
