@@ -2,14 +2,12 @@
 
 # 🐍 Advanced Snake Game
 
-This is a classic "Snake" arcade game built from scratch using Python and the Pygame library. Far from a basic tutorial clone, this project features procedural animation, smart spawning algorithms, dynamic difficulty, and persistent data tracking to create a highly polished gaming experience.
+This is a classic "Snake" arcade game built from scratch using Python and the Pygame library. Far from a basic tutorial clone, this project features  smart spawning algorithms, dynamic difficulty, and persistent data tracking to create a highly polished gaming experience.
 
 ## ✨ Advanced Features & Mechanics (Under the Hood)
 
 This game includes several sophisticated systems to ensure smooth gameplay and a great visual experience:
 
-* 🎨 Procedural Body Animation: The snake is not just a collection of static square blocks. The code calculates directional vectors (`dx`, `dy`) for every single body segment to dynamically round the corners whenever the snake turns, creating a smooth, organic look.
-* 👀 Dynamic Facial Geometry: The snake's head features procedural geometry. It dynamically elongates based on the movement direction, and mathematically calculates the exact (`x, y`) offsets to position the eyes and tongue perfectly on top of the moving head.
 * 🧠 Smart Food Spawning Algorithm: The food generation system scans the entire grid to create an array of safe coordinates. It mathematically excludes the UI borders and the snake's current body cells, guaranteeing an apple will never spawn inside a wall or the snake itself.
 * 🛡️ Anti-Suicide Keystroke Protection: A built-in vector check compares the player's input against the physical location of the snake's "neck". This prevents the snake from instantly snapping its own neck (turning 180 degrees) if the player accidentally presses two opposite keys within the same millisecond.
 * 🛑 Fair Game Over System: Upon collision, the game forces Pygame to render the exact final frame of the crash and initiates a 1-second programmatic pause. This gives the player time to visually process exactly where they crashed before transitioning to the Game Over screen.
