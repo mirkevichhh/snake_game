@@ -1,8 +1,3 @@
-Я бачу, в чому проблема! У тому тексті, що ти щойно показав, зникли символи закриття коду (потрійні зворотні апострофи ```) відразу після команди pip install pygame. Через це редактор заплутався, і весь текст нижче просто перестав форматуватися.
-
-Давай зробимо це напевно. Видали абсолютно все зі свого файлу README.md. Потім натисни кнопку «Копіювати» (Copy) у верхньому правому куті цього чорного віконця нижче і встав скопійоване у свій порожній файл:
-
-Markdown
 # 🐍 Advanced Snake Game 
 
 This is a classic "Snake" arcade game built from scratch using Python and the Pygame library. Far from a basic tutorial clone, this project features procedural animation, smart spawning algorithms, dynamic difficulty, and persistent data tracking to create a highly polished gaming experience.
@@ -34,8 +29,9 @@ pip install pygame
 ▶️ How to Run
 After installing the dependencies, navigate to the root folder of the project and run the main script:
 
-Bash
+
 python main.py
+
 🎮 Controls
 The game supports multiple control schemes and an interactive menu:
 
