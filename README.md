@@ -11,8 +11,9 @@ This is a classic "Snake" arcade game implemented in Python using the Pygame lib
 1. Ensure you have Python installed.
 2. Install the required Pygame library by running the following command in your terminal:
 
-```bash
+``bash
 pip install pygame
+``bash
 ▶️ How to Run
 After installing the dependencies, navigate to the game folder and run the main file:
 
