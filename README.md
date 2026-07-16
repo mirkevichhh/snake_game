@@ -1,17 +1,17 @@
-Snake Game 🐍
+Markdown
+# Snake Game 🐍
+
 This is a classic "Snake" arcade game implemented in Python using the Pygame library. The player must navigate a snake, collect apples, and avoid colliding with walls or the snake's own tail. The speed of the snake gradually increases with each apple consumed.
 
-🛠 Requirements
-Python 3.x
+## 🛠 Requirements
+* **Python 3.x**
+* **Pygame**
 
-Pygame
+## 🚀 Installation
+1. Ensure you have Python installed.
+2. Install the required Pygame library by running the following command in your terminal:
 
-🚀 Installation
-Ensure you have Python installed.
-
-Install the required Pygame library by running the following command in your terminal:
-
-Bash
+```bash
 pip install pygame
 ▶️ How to Run
 After installing the dependencies, navigate to the game folder and run the main file:
